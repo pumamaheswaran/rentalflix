@@ -1,5 +1,4 @@
 # rentalflix
-## About
 This project is a coding challenge which tests proficiency in developing applications using Java. The goal was to implement a movie renting service i.e given IFlix interface, create a class which extends IFlix interface and implement all its methods. The methods include CRUD operations like:
 
 1. Create Movie

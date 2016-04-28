@@ -1,11 +1,11 @@
 # rentalflix
-Java assessment for new training candidates.
+## About
+This project is a coding challenge which tests proficiency in developing applications using Java. The goal was to implement a movie renting service i.e given IFlix interface, create a class which extends IFlix interface and implement all its methods. The methods include CRUD operations like:
 
-1. Fork this repository on your own github account.
-1. Clone the forked repository in your local machine.
-1. Import the project in any Java IDE.
-1. Develop MovieService by implementing IFlix interface. Instructions are given in IFlix.java
-1. Use any Java collection type in MovieService to store movies.
-1. Write JUnit test cases for MovieService in MovieServiceTest file.
-1. Keep in mind about possibilities of concurrent access to MovieService.
-1. Once completed, DIRECT MESSAGE Praveen on slack with the link of the repo.
+1. Create Movie
+2. Delete Movie
+3. Update Movie
+4. Find all Movies
+5. Rent a Movie if it is not rented already
+
+Since our service can be called by multiple different clients, all the operations can be called simultaneously which needs to be handled. This challenge tests if an individual is able to overcome various thread synchronization problems. 
